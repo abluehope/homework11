@@ -1,0 +1,24 @@
+@mixin inner() {
+  max-width: $size-pc;
+  margin: 0 auto;
+  padding: 0 $size-gap/2;
+}
+
+@mixin btn() {
+  padding: 12rem 28rem;
+  border: 1px solid $color-point;
+  border-radius: 0 0 16rem 0;
+  font-weight: 300;
+  color: $color-point;
+
+  transition: 0.5s;
+
+  i {
+    padding: 0 0 0 8rem;
+  }
+
+  &:hover {
+    background: $color-point;
+    color: $color-white;
+  }
+}

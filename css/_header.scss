@@ -1,0 +1,29 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+
+  background: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(10px);
+
+  .header_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80rem;
+  }
+
+  .gnb > ul {
+    display: flex;
+    gap: 30rem;
+
+    li {
+      a {
+        font-size: 18rem;
+        font-weight: 500;
+      }
+    }
+  }
+}

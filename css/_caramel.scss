@@ -1,0 +1,32 @@
+.caramel {
+  background: #fff3e3;
+  background-image: url(../images/caramel_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: 900%;
+  .con {
+    height: 100%;
+    .desc_box {
+      padding: 170rem 0;
+      .desc {
+        margin: 0 0 64rem 0;
+        span {
+          display: block;
+          margin: 0 0 16rem 0;
+          font-weight: 300;
+          padding: 0 0 0 8rem;
+          letter-spacing: 0.2em;
+        }
+        h2 {
+          margin: 0 0 40rem 0;
+          width: 320rem;
+          font-size: 100rem;
+          font-weight: 600;
+        }
+        p {
+          margin: 0 0 24rem 0;
+          line-height: 1.5;
+        }
+      }
+    }
+  }
+}
